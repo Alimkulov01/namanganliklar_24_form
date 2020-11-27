@@ -1,0 +1,603 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik',
+    sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.contenier {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background: #F6F6F9;
+  margin-bottom: 17px;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 42px;
+  margin-bottom: 40px;
+}
+
+.top-left {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.top-right {
+  display: flex;
+  align-items: center;
+}
+
+
+.right-tg {
+  align-items: center;
+  justify-content: center;
+  margin-left: 35px;
+}
+
+
+
+.left-logo {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+  border-radius: 5px;
+
+}
+
+.left-logo img {
+  padding: 7px 10px 4px 10px;
+}
+
+
+.left-r {
+  display: flex;
+  margin-left: 17px;
+}
+
+.left-r p {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #817c7c;
+  padding-right: 15px;
+  
+
+}
+
+.currency {
+  color: #285193;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px
+}
+
+
+input {
+  background: #FFFFFF;
+  border-radius: 5px;
+  width: 145px;
+  height: 40px;
+  border: 1px solid transparent;
+  margin-right: 14px;
+}
+
+::placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  padding-left: 15px;
+}
+
+button {
+  width: 40.1px;
+  height: 40px;
+  background-image: url(../img/lupa.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid transparent;
+  margin-right: 14px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+
+
+.right-left {
+  display: flex;
+  align-items: center;
+
+}
+
+.rushin img {
+  border-radius: 18px;
+  padding-top: 7px;
+  margin-left: 11px;
+}
+
+.right-tg {
+  display: flex;
+
+}
+
+.tg-link {
+  margin-left: 23px;
+}
+
+
+.tg-link img {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 7px;
+  padding-bottom: 10px;
+}
+
+.tg-link a {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+  border-radius: 5px;
+  width: 146px;
+  height: 40px;
+  padding-bottom: 1px;
+
+}
+
+.rushin {
+  background: #FFFFFF;
+  border-radius: 5px;
+  width: 64.76px;
+  height: 40px;
+  align-items: center;
+
+}
+
+.header-telegram {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.header-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+  border-radius: 5px;
+  padding: 21px 24px;
+  margin-bottom: 18px;
+}
+
+.nav {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+  color: #515151;
+}
+
+.blu {
+  color: #295093;
+
+}
+
+.header-bottom {
+  padding-bottom: 23px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.main-left h2 {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 12px;
+  width: 178px;
+  height: 30px;
+}
+
+.main-form {
+  margin-bottom: 40px;
+}
+
+.main-form input {
+  display: block;
+  margin-bottom: 20px;
+  padding-left: 13px;
+}
+
+::placeholder {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #888888;
+  padding-left: 8px;
+
+
+}
+
+.oxshash {
+  background: #F1F1F1;
+  border: 2px solid rgba(41, 80, 145, 0.19);
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 600px;
+  height: 50px;
+
+}
+
+
+textarea {
+  background: #F1F1F1;
+  border: 2px solid rgba(41, 80, 145, 0.19);
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #888888;
+  width: 600px;
+  height: 307px;
+  margin-bottom: 20px;
+  resize: none;
+}
+
+.papka {
+  background: #FBFBFB;
+  border: 2px solid rgba(41, 80, 145, 0.19);
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 221px;
+  height: 50px;
+  color: #888888;
+
+}
+
+
+.pasword {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.pasword h4 {
+  padding-top: 12px;
+  font-family: Song Myung;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 29px;
+  color: #000000;
+}
+
+
+form a {
+  background: #295093;
+  border: 2px solid rgba(40, 81, 147, 0.54);
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 10px 40px;
+  width: 221px;
+  height: 50px;
+  color: #FFFFFF;
+
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+
+}
+
+
+.main-right{
+  background: #FFFFFF;
+  border: 2px solid #BCC3CD;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 510px;
+  height: 320px;
+  box-shadow: -10px 12px 15px rgba(57, 57, 57, 0.25);
+  border-radius: 5px;
+  margin-top: 41px;
+}
+
+.main-right-inner{
+  /* padding-left: 25px;
+  padding-right: 20px; */
+}
+
+
+.main-right{
+  padding: 30px 23px 20px 32px;
+}
+.right-top {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  color: #295091;
+  text-align: end;
+ 
+  margin-bottom: 21px;
+}
+
+.stil{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  color: #888888;
+}
+
+
+.mail,.messenger,.telegrammm,.apps{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+
+.mail-right a{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #888888;
+}
+
+.messenger{
+
+}
+
+.mes-right{
+  display: flex;
+}
+
+.m-r-1{
+  margin-right: 13px;
+}
+
+.m-r-2{
+  margin-right: 13px;
+}
+
+
+
+
+
+.nav-center-tg{
+  background: #295091;
+  border-radius: 5px;
+  align-content: center;
+  display: flex;
+  padding: 8px 12px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #FFFFFF;
+}
+
+.nav-center-tg img{
+  margin-right: 6px;
+}
+
+
+
+
+
+
+
+
+
+.apps-right{
+  display: flex;
+}
+
+.ap-r-left{
+  margin-left: 13px;
+}
+
+
+
+
+.left{
+  margin-left:13px;
+}
+
+
+
+footer {
+  background: #295093;
+}
+
+.iner-top {
+
+  border-bottom: 3px solid #062a68;
+}
+
+
+
+.foter-iner {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  background: #133C82;
+  border-radius: 5px;
+  width: 194px;
+  height: 38px;
+  left: 119px;
+  top: 2625px;
+  margin-top: 18px;
+}
+
+.logo-footer {
+  color: #FFFFFF;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  width: 173px;
+  height: 21px;
+  left: 128px;
+  top: 2598px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 10px;
+}
+
+.iner-top {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.top-iner-right {
+  display: flex;
+  justify-content: space-around;
+
+  align-items: end;
+}
+
+.footer-p {
+  padding-top: 31px;
+  color: #FFFFFF;
+  margin-right: 17px;
+
+
+}
+
+
+.footer-telegram{
+  padding-top: 20px;
+  margin-bottom: 18px;
+}
+
+
+.footer-telegram  a {
+  background: #FFFFFF;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 11px;
+}
+
+
+.footer-telegram span{
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #295093;
+}
+
+
+.footer-telegram img{
+  margin-right: 10px;
+  padding-left: 4px;
+}
+
+
+
+
+
+
+.f-iner-bottom {
+  display: flex;
+}
+
+
+.bottom-right {
+  display: flex;
+}
+
+.footer-linklar {
+  color: #FFFFFF;
+  display: flex;
+  padding-bottom: 10px;
+  margin: 0 111px;
+}
+
+.footer-linklar-2 {
+  color: #FFFFFF;
+  display: flex;
+  padding-bottom: 10px;
+}
+
+
+
+.footer-p-p-p {
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  margin-bottom: 13px;
+  margin-top: 20px;
+  margin-right: 17px;
+}
+
+.bottom-left h5 {
+  margin-bottom: 10px;
+}
